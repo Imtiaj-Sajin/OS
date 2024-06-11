@@ -1,0 +1,52 @@
+student@Linux-VM-00:~/sajin$ mkdir LabPerformance1_sajin
+student@Linux-VM-00:~/sajin$ cd LabPerformance1_sajin
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ mkdir dir1 dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ cd dir1
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1$ mkdir dir3
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1$ cd dir3
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cat>file1.txt
+this is my first text file.
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cat file1
+cat: file1: No such file or directory
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cat file1.txt
+this is my first text file.
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ mv file1.txt renamedfile.txt
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ ls
+renamedfile.txt
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cp renamedfile.txt /sajin^C
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cp renamedfile.txt student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2
+cp: cannot create regular file 'student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2': No such file or directory
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cd ..
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1$ cd ..
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ ls
+dir1  dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ cd dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2$ pwd
+/home/student/sajin/LabPerformance1_sajin/dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2$ cd ..
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ dir1
+No command 'dir1' found, did you mean:
+ Command 'dirt' from package 'dput-ng' (universe)
+ Command 'dir' from package 'coreutils' (main)
+dir1: command not found
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ ls
+dir1  dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ cd dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2$ cd ..
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ cd dir1
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1$ ls
+dir3
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1$ cd dir3
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cp renamedfile.txt /home/student/sajin/LabPerformance1_sajin/dir2/
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1/dir3$ cd ..
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir1$ cd ..
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ dir2
+No command 'dir2' found, did you mean:
+ Command 'dirt' from package 'dput-ng' (universe)
+ Command 'dir' from package 'coreutils' (main)
+dir2: command not found
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin$ cd dir2
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2$ ls
+renamedfile.txt
+student@Linux-VM-00:~/sajin/LabPerformance1_sajin/dir2$ clear
+
