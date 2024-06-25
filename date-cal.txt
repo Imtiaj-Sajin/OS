@@ -1,0 +1,162 @@
+student@Linux-VM-00:~$ cal
+     June 2024        
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+30                    
+student@Linux-VM-00:~$ cal-3
+cal-3: command not found
+student@Linux-VM-00:~$ cal 3
+                             3
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3               1  2  3  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   4  5  6  7  8  9 10  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  11 12 13 14 15 16 17  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  18 19 20 21 22 23 24  
+28 29 30 31           25 26 27 28           25 26 27 28 29 30 31  
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7         1  2  3  4  5                  1  2  
+ 8  9 10 11 12 13 14   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+29 30                 27 28 29 30 31        24 25 26 27 28 29 30  
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                     1  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+29 30 31              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3                     1  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  16 17 18 19 20 21 22  
+28 29 30 31           25 26 27 28 29 30     23 24 25 26 27 28 29  
+                                            30 31                 
+student@Linux-VM-00:~$ cal 2
+                             2
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4            1  2  3  4  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   5  6  7  8  9 10 11  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  12 13 14 15 16 17 18  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  19 20 21 22 23 24 25  
+29 30 31              26 27 28              26 27 28 29 30 31     
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1      1  2  3  4  5  6               1  2  3  
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30     
+30                                                                
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5                  1  2  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30  
+30 31                                                             
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31                    
+student@Linux-VM-00:~$ cal -3
+      May 2024             June 2024             July 2024        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  21 22 23 24 25 26 27  
+26 27 28 29 30 31     23 24 25 26 27 28 29  28 29 30 31           
+                      30                                          
+student@Linux-VM-00:~$ date -m
+date: invalid option -- 'm'
+Try 'date --help' for more information.
+student@Linux-VM-00:~$ date ncal -m
+date: invalid option -- 'm'
+Try 'date --help' for more information.
+student@Linux-VM-00:~$ ncal -M
+    June 2024         
+Mo     3 10 17 24   
+Tu     4 11 18 25   
+We     5 12 19 26   
+Th     6 13 20 27   
+Fr     7 14 21 28   
+Sa  1  8 15 22 29   
+Su  2  9 16 23 30   
+student@Linux-VM-00:~$ dater
+No command 'dater' found, did you mean:
+ Command 'date' from package 'coreutils' (main)
+ Command 'water' from package 'emboss' (universe)
+dater: command not found
+student@Linux-VM-00:~$ date
+Tue Jun 25 14:15:06 +06 2024
+student@Linux-VM-00:~$ water
+The program 'water' is currently not installed. You can install it by typing:
+sudo apt install emboss
+student@Linux-VM-00:~$ date
+Tue Jun 25 14:15:23 +06 2024
+student@Linux-VM-00:~$  date +%m
+06
+student@Linux-VM-00:~$ date +%d
+25
+student@Linux-VM-00:~$ date +%h%m
+Jun06
+student@Linux-VM-00:~$ date +%h
+Jun
+student@Linux-VM-00:~$ date +%M%m
+1806
+student@Linux-VM-00:~$ date %r
+date: invalid date ‘%r’
+student@Linux-VM-00:~$ date +%r
+02:19:24 PM
+student@Linux-VM-00:~$ who
+student  tty7         2024-06-03 07:50 (:0)
+student  pts/1        2024-06-25 14:12 (:10.0)
+student@Linux-VM-00:~$ whoami
+student
+student@Linux-VM-00:~$ '''''''\\\\'''\\\\'\\\\'
+\\\\\\\\\\: command not found
+student@Linux-VM-00:~$ logname
+student
+student@Linux-VM-00:~$ bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+man
+0
+student@Linux-VM-00:~$ man
+What manual page do you want?
+student@Linux-VM-00:~$ bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+man bc
+(standard_in) 1: syntax error
+student@Linux-VM-00:~$ man bc
+
