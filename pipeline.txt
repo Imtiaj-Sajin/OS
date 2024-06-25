@@ -40,5 +40,100 @@ student@Linux-VM-00:~/sajin/lab3$ cat movies
     11	the boys
     12	The boys
     13	your name
-student@Linux-VM-00:~/sajin/lab3$ 
+
+
+student@Linux-VM-00:~/sajin/lab3$ cat>animal
+Ranveer Kapoor
+Goat
+Goat Messi
+Goat Ronaldo
+Cat
+Dog
+Koala
+Cow
+Lion
+Tiger 
+student@Linux-VM-00:~/sajin/lab3$ animal
+No command 'animal' found, did you mean:
+ Command 'animals' from package 'animals' (universe)
+animal: command not found
+student@Linux-VM-00:~/sajin/lab3$ cat animal
+Ranveer Kapoor
+Goat
+Goat Messi
+Goat Ronaldo
+Cat
+Dog
+Koala
+Cow
+Lion
+Tiger
+student@Linux-VM-00:~/sajin/lab3$ cat>bird
+Eagle 	Duck 	Hen 	Parrot
+Peacock 	Dovestudent@Linux-VM-00:~/sajin/lab3$ sort bird
+Eagle 	Duck 	Hen 	Parrot
+Peacock 	Dove
+student@Linux-VM-00:~/sajin/lab3$ nl bird
+     1	Eagle 	Duck 	Hen 	Parrot
+     2	Peacock 	Dove
+student@Linux-VM-00:~/sajin/lab3$ cat>birds
+eagle
+duck
+parrot
+peacock
+dove
+duel
+owl
+flamingo
+cockatiel
+hawk
+student@Linux-VM-00:~/sajin/lab3$ cat birds
+eagle
+duck
+parrot
+peacock
+dove
+duel
+owl
+flamingo
+cockatiel
+hawk
+student@Linux-VM-00:~/sajin/lab3$ wc -c animal | birds |cat>count
+No command 'birds' found, did you mean:
+ Command 'bird6' from package 'bird' (universe)
+ Command 'birdc' from package 'bird' (universe)
+ Command 'bird' from package 'bird' (universe)
+birds: command not found
+student@Linux-VM-00:~/sajin/lab3$ cat count
+student@Linux-VM-00:~/sajin/lab3$ wc -c animal |cat>count
+student@Linux-VM-00:~/sajin/lab3$ cat count
+73 animal
+student@Linux-VM-00:~/sajin/lab3$ wc -c animal birds| cat>count
+student@Linux-VM-00:~/sajin/lab3$ cat count
+ 73 animal
+ 64 birds
+137 total
+student@Linux-VM-00:~/sajin/lab3$ sort -r animal birds|cat>echology
+student@Linux-VM-00:~/sajin/lab3$ cat echology
+Tiger
+Ranveer Kapoor
+peacock
+parrot
+owl
+Lion
+Koala
+hawk
+Goat Ronaldo
+Goat Messi
+Goat
+flamingo
+eagle
+duel
+duck
+dove
+Dog
+Cow
+cockatiel
+Cat
+
 
