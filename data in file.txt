@@ -1,0 +1,109 @@
+student@Linux-VM-00:~$ cd /home/student/sajin/lab3/
+student@Linux-VM-00:~/sajin/lab3$ cat>f1
+this is f1
+wow...
+f1 ends.student@Linux-VM-00:~/sajin/lab3$ f1
+f1: command not found
+student@Linux-VM-00:~/sajin/lab3$ cat f1
+this is f1
+wow...
+f1 ends.student@Linux-VM-00:~/sajin/lab3$ wc f1
+ 2  6 26 f1
+student@Linux-VM-00:~/sajin/lab3$ wc -l f1
+2 f1
+student@Linux-VM-00:~/sajin/lab3$ cat>f2
+orange
+apple
+apple
+wahid     
+bros
+coins
+wahid
+wahid
+ATrain
+atrain
+Atrain
+   
+student@Linux-VM-00:~/sajin/lab3$ f2
+f2: command not found
+student@Linux-VM-00:~/sajin/lab3$ nl f2
+     1	orange
+     2	apple
+     3	apple
+     4	wahid
+     5	bros
+     6	coins
+     7	wahid
+     8	wahid
+     9	ATrain
+    10	atrain
+    11	Atrain
+       
+student@Linux-VM-00:~/sajin/lab3$ nl -i5 f2
+     1	orange
+     6	apple
+    11	apple
+    16	wahid
+    21	bros
+    26	coins
+    31	wahid
+    36	wahid
+    41	ATrain
+    46	atrain
+    51	Atrain
+       
+student@Linux-VM-00:~/sajin/lab3$ sort f2
+
+apple
+apple
+atrain
+Atrain
+ATrain
+bros
+coins
+orange
+wahid
+wahid
+wahid
+student@Linux-VM-00:~/sajin/lab3$ sort
+
+f2
+
+f2
+student@Linux-VM-00:~/sajin/lab3$ sort
+student@Linux-VM-00:~/sajin/lab3$ sor -r f2
+The program 'sor' is currently not installed. You can install it by typing:
+sudo apt install pccts
+student@Linux-VM-00:~/sajin/lab3$ sort -r f2
+wahid
+wahid
+wahid
+orange
+coins
+bros
+ATrain
+Atrain
+atrain
+apple
+apple
+
+student@Linux-VM-00:~/sajin/lab3$ sort -u f2
+
+apple
+atrain
+Atrain
+ATrain
+bros
+coins
+orange
+wahid
+student@Linux-VM-00:~/sajin/lab3$ sort -u -r f2
+wahid
+orange
+coins
+bros
+ATrain
+Atrain
+atrain
+apple
+
