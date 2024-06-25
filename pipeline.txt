@@ -1,0 +1,44 @@
+student@Linux-VM-00:~/sajin/lab3$ cat>f2
+Shawshank Redemption
+Rig Brothers 
+Avatar
+Star Wars
+your name
+Shadow king
+Life in a nutshell
+Forrest gump
+avatar
+avatar
+Nice to be with you
+the boys   
+The boysstudent@Linux-VM-00:~/sajin/lab3$ 
+student@Linux-VM-00:~/sajin/lab3$ cat f2
+Shawshank Redemption
+Rig Brothers
+Avatar
+Star Wars
+your name
+Shadow king
+Life in a nutshell
+Forrest gump
+avatar
+avatar
+Nice to be with you
+the boys
+The boysstudent@Linux-VM-00:~/sajin/lab3$ sort f2 | nl | cat>movies
+student@Linux-VM-00:~/sajin/lab3$ cat movies
+     1	avatar
+     2	avatar
+     3	Avatar
+     4	Forrest gump
+     5	Life in a nutshell
+     6	Nice to be with you
+     7	Rig Brothers
+     8	Shadow king
+     9	Shawshank Redemption
+    10	Star Wars
+    11	the boys
+    12	The boys
+    13	your name
+student@Linux-VM-00:~/sajin/lab3$ 
+
